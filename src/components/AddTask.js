@@ -33,9 +33,8 @@ setReminder(false)
                 Task' value={text} onChange={(e) => setText(e.target.value)}/>
             </div>
        
-            <div className= 'form-control'>
-
-                <lable>Day & Time</lable>
+          <div className='form-control'>
+               <lable>Day & Time</lable>
                 <input type='text' placeholder='Add Day & Time' value={day} 
                 onChange={(e) => setDay(e.target.value)}/>
             </div>
